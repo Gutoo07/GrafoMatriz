@@ -8,6 +8,7 @@ public class Controller {
 	}
 	
 	public String teste() throws Exception {
+		String[] routers = new String[] {"A","B","C","D"};
 		Grafo<Integer> g = new Grafo(routers);
 		
 		g.link("A", "B");
